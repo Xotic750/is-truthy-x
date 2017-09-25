@@ -9,8 +9,6 @@
 
 'use strict';
 
-var toBoolean = require('to-boolean-x');
-
 /**
  * This method tests if a given value is truthy.
  *
@@ -30,6 +28,4 @@ var toBoolean = require('to-boolean-x');
  * isTruthy(1); // true
  * isTruthy(function () {}); // true
  */
-module.exports = function isTruthy(value) {
-  return toBoolean(value);
-};
+module.exports = require('to-boolean-x');

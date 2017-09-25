@@ -29,10 +29,10 @@ Test if a given value is truthy.
 **Copyright**: Xotic750  
 <a name="exp_module_is-truthy-x--module.exports"></a>
 
-### `module.exports(value)` ⇒ <code>boolean</code> ⏏
+### `module.exports` ⇒ <code>boolean</code> ⏏
 This method tests if a given value is truthy.
 
-**Kind**: Exported function  
+**Kind**: Exported member  
 **Returns**: <code>boolean</code> - `true` if the value is truthy: otherwise `false`.  
 
 | Param | Type | Description |
