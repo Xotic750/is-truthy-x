@@ -21,36 +21,35 @@
 <a name="module_is-truthy-x"></a>
 
 ## is-truthy-x
+
 Test if a given value is truthy.
 
-**Version**: 1.0.2  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
 <a name="exp_module_is-truthy-x--module.exports"></a>
 
 ### `module.exports` ⇒ <code>boolean</code> ⏏
+
 This method tests if a given value is truthy.
 
 **Kind**: Exported member  
-**Returns**: <code>boolean</code> - `true` if the value is truthy: otherwise `false`.  
+**Returns**: <code>boolean</code> - `true` if the value is truthy: otherwise `false`.
 
-| Param | Type | Description |
-| --- | --- | --- |
+| Param | Type            | Description        |
+| ----- | --------------- | ------------------ |
 | value | <code>\*</code> | The value to test. |
 
-**Example**  
+**Example**
+
 ```js
-var isTruthy = require('is-truthy-x');
+import isTruthy from 'is-truthy-x';
 
-isTruthy(); // false
-isTruthy(0); // false
-isTruthy(''); // false
-isTruthy(false); // false
-isTruthy(null); // false
+console.log(isTruthy()); // false
+console.log(isTruthy(0)); // false
+console.log(isTruthy('')); // false
+console.log(isTruthy(false)); // false
+console.log(isTruthy(null)); // false
 
-isTruthy(true); // true
-isTruthy([]); // true
-isTruthy(1); // true
-isTruthy(function () {}); // true
+console.log(isTruthy(true)); // true
+console.log(isTruthy([])); // true
+console.log(isTruthy(1)); // true
+console.log(isTruthy(function() {})); // true
 ```
