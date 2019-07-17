@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-17T13:07:21.138Z",
+  "date": "2019-07-17T15:16:35.380Z",
   "describe": "",
   "description": "Test if a given value is truthy.",
   "file": "is-truthy-x.js",
-  "hash": "fff3285cc62eb0d277c5",
+  "hash": "84fc3bf4b56388bd7657",
   "license": "MIT",
-  "version": "2.0.7"
+  "version": "2.0.8"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -137,9 +137,11 @@ __webpack_require__.r(__webpack_exports__);
  * @param {*} [value] - The value to be converted.
  * @returns {boolean} 'true' if value is truthy; otherwise 'false'.
  */
-function toBoolean(value) {
+var toBoolean = function toBoolean(value) {
   return !!value;
-}
+};
+
+/* harmony default export */ var to_boolean_x_esm = (toBoolean);
 
 
 // CONCATENATED MODULE: ./dist/is-truthy-x.esm.js
@@ -153,7 +155,7 @@ function toBoolean(value) {
  */
 
 var is_truthy_x_esm_isTruthy = function isTruthy(value) {
-  return toBoolean(value);
+  return to_boolean_x_esm(value);
 };
 
 /* harmony default export */ var is_truthy_x_esm = __webpack_exports__["default"] = (is_truthy_x_esm_isTruthy);
