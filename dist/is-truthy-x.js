@@ -2,11 +2,11 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-16T21:03:34.044Z",
+  "date": "2019-07-17T13:07:21.138Z",
   "describe": "",
   "description": "Test if a given value is truthy.",
   "file": "is-truthy-x.js",
-  "hash": "047fcd845afd5daef7ef",
+  "hash": "fff3285cc62eb0d277c5",
   "license": "MIT",
   "version": "2.0.7"
 }
@@ -143,7 +143,6 @@ function toBoolean(value) {
 
 
 // CONCATENATED MODULE: ./dist/is-truthy-x.esm.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isTruthy; });
 
 /**
  * This method tests if a given value is truthy.
@@ -153,9 +152,11 @@ function toBoolean(value) {
  * @returns {boolean} `true` if the value is truthy: otherwise `false`.
  */
 
-function isTruthy(value) {
+var is_truthy_x_esm_isTruthy = function isTruthy(value) {
   return toBoolean(value);
-}
+};
+
+/* harmony default export */ var is_truthy_x_esm = __webpack_exports__["default"] = (is_truthy_x_esm_isTruthy);
 
 
 

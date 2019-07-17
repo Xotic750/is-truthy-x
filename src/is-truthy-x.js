@@ -7,6 +7,8 @@ import toBoolean from 'to-boolean-x';
  * @param {*} [value] - The value to test.
  * @returns {boolean} `true` if the value is truthy: otherwise `false`.
  */
-export default function isTruthy(value) {
+const isTruthy = function isTruthy(value) {
   return toBoolean(value);
-}
+};
+
+export default isTruthy;
