@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-25T21:35:16.039Z",
+  "date": "2019-07-26T12:42:53.416Z",
   "describe": "",
   "description": "Test if a given value is truthy.",
   "file": "is-truthy-x.js",
   "hash": "84fc3bf4b56388bd7657",
   "license": "MIT",
-  "version": "2.0.20"
+  "version": "2.0.21"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
