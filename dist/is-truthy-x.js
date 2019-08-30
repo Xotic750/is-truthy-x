@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-08-28T16:49:18.805Z",
+  "date": "2019-08-30T21:33:48.523Z",
   "describe": "",
   "description": "Test if a given value is truthy.",
   "file": "is-truthy-x.js",
